@@ -1,0 +1,189 @@
+    1  vi .zshrc
+    2  sudo reboot
+    3  vi .zshrc
+    4  gnome-terminal
+    5  vi .zshrc
+    6  gnome-terminal
+    7  git config --global user.name "chr7stos"
+    8  git config --global user.email "chris.christodoulou@gmail.com"
+    9  git config --list
+   10  git status
+   11  cd Bits
+   12  git clone https://github.com/chr7stos/bookpit.git
+   13  ls
+   14  cd bookpit
+   15  ls
+   16  git remove -v
+   17  git remote -v
+   18  ls
+   19  cd ..
+   20  ls
+   21  cd Bits
+   22  ls
+   23  apt get install chromium chromium-l10n
+   24  \n
+   25  apt-get install chromium
+   26  sudo apt-get chromium
+   27  sudo apt-get install chromium
+   28  chromium
+   29  python --version
+   30  python3
+   31  chromium
+   32  gnome-tweak-tool
+   33  chromium
+   34  ls
+   35  pwd
+   36  cd /home
+   37  ls
+   38  cd ..
+   39  ls
+   40  cd ..
+   41  ls
+   42  ~
+   43  ls
+   44  chromium
+   45  egrep -i 'synap|alps|etps' /proc/bus/input/devices
+   46  ls
+   47  cd D
+   48  D:
+   49  amixer
+   50  cd D:
+   51  D:
+   52  ls
+   53  cd..
+   54  cd ..
+   55  ls
+   56  jupyter notebook
+   57  cd Bits
+   58  cd bookpit/
+   59  ls
+   60  nano README.md
+   61  chromium
+   62  ks
+   63  ls
+   64  cd Bits
+   65  mkdir microblog
+   66  ls
+   67  cd microblog
+   68  python3 -m venv flask
+   69  pip upgrade
+   70  python3 --version
+   71  sudo apt-get install python3-virtualenv
+   72  python3 -m venv flask
+   73  ls
+   74  cd flask
+   75  ls
+   76  cd ..
+   77  pip --version
+   78  apt-get pip
+   79  sudo apt-get install python3-pip
+   80  sudo apt-get install python-pip
+   81  python3 -m venv flask
+   82  sudo apt-get pip upgrade
+   83  pip install virtualenv
+   84  ls
+   85  cd flask
+   86  ls
+   87  cd bin
+   88  ls
+   89  cd ..
+   90  ls
+   91  python3 -m venv flask
+   92  pip install virtualenv
+   93  sudo chmod o+r /usr/local/lib/python2.7/dist-packages/python_dateutil-2.2-py2.7.egg/EGG-INFO/top_level.txt
+   94  sudo pip install virtualenv
+   95  python3 -m venv flask
+   96  apt-get install python3-pip
+   97  sudo apt-get install python3-pip
+   98  sudo python3 -m venv flask
+   99  virtualenv --version
+  100  sudo apt-get upgrade python3-pip
+  101  python3 -m venv flask
+  102  python -m venv flask
+  103  sudo apt-get install ensurepip
+  104  sudo apt-get install python3-ensurepip
+  105  ls
+  106  python3 -m venv flask
+  107  sudo apt-get install python-virtualenv
+  108  python -m venv flask
+  109  python3 -m venv flask
+  110  sudo easy_install virtualenv
+  111  python3 -m venv flask
+  112  virtualenv flask
+  113  cd ..
+  114  rm -r microblog
+  115  ls
+  116  mkdir microblog
+  117  ls
+  118  cd microblog
+  119  python3 -m venv flask
+  120  cd
+  121  cd Bits
+  122  cd microblog
+  123  ls
+  124  cd flask
+  125  ls
+  126  cd bin
+  127  ls
+  128  cd python3
+  129  ls
+  130  cd..
+  131  cd ..
+  132  sudo apt-get install python-virtualenv
+  133  virtualenv flask
+  134  activate flask
+  135  source activate dflask
+  136  source activate flask
+  137  python -m venv flask
+  138  virtualenv flask
+  139  python3-virtualenv flask
+  140  cd ..
+  141  rm -r microblog
+  142  ls
+  143  sudo apt-get install python-virtualenv
+  144  sudo apt-get install python3-virtualenv
+  145  mkdir microblog
+  146  virtualenv -p python3 test
+  147  pip install --upgrade virtualenv
+  148  cd microblog
+  149  ls
+  150  python3 -m venv flask
+  151  python3 -m venv3 flask
+  152  pip install virtualenv
+  153  pyenv flask
+  154  pyvenv flask
+  155  sudo apt-get remove python-virtualenv
+  156  ls
+  157  sudo easy_install pip
+  158  sudo easy_install python3-pip
+  159  sudo pip install virtualenv
+  160  python3 -m venv flask
+  161  sudo apt-get install python3-virtualenv
+  162  sudo apt-get install python-virtualenv
+  163  sudo apt-get install virtualenv
+  164  virtualenv flask
+  165  flask/bin/pip install flask
+  166  rm -r flask
+  167  ls
+  168  python -m venv flask
+  169  ls
+  170  python3 -m venv flask
+  171  cd flask
+  172  cd bin
+  173  ls
+  174  python3 -IM
+  175  python3 -Im
+  176  python3 ensurepip
+  177  python3 -Im ensurepip
+  178  python3 -Im ensurepip --upgrade --default-pip
+  179  python3 -Im --upgrade --default-pip
+  180  cd ..
+  181  rm -r flask
+  182  virtualenv -p /usr/bin/python3.4 venv
+  183  ls
+  184  rm -r venv
+  185  ls
+  186  virtualenv -p /usr/bin/python3.4 flask
+  187  source activate flask
+  188  sourve flask/bin/activate
+  189  source flask/bin/activate

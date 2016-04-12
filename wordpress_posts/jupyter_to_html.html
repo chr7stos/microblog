@@ -1,0 +1,35 @@
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="What-am-I-doing-here?">What am I doing here?<a class="anchor-link" href="#What-am-I-doing-here?">&#182;</a></h3><p>I have decided to use jupyter notebooks to present some things that I find useful. For the moment, I will stick to the wordpress blog platform, but I am in the progress of creating a website using <strong>flask</strong> and put everything there.</p>
+<h3 id="Convert-jupyter-notebook-to-html">Convert jupyter notebook to html<a class="anchor-link" href="#Convert-jupyter-notebook-to-html">&#182;</a></h3><p>In the terminal, go to the relevant folder and type:</p>
+<p><code>jupyter nbconvert --to html --template basic jupyter_to_html.ipynb</code></p>
+<p>The <code>--template basic</code> is used to avoid including lots of CSS lines that would interfere with the wordpress's CSS. The page remains unresponsive for some time if I do not use this command.</p>
+<h3 id="Paste-the-generated-html-in-wordpress">Paste the generated html in wordpress<a class="anchor-link" href="#Paste-the-generated-html-in-wordpress">&#182;</a></h3><p>Using the HTML interface, paste the generated jupyter_to_html.html code.</p>
+<h3 id="Adding-CSS">Adding CSS<a class="anchor-link" href="#Adding-CSS">&#182;</a></h3><p>The disadvantage for not including CSS makes the use of jupyter notebooks pointless. 
+In <a href="http://prooffreaderplus.blogspot.de/2014/11/how-to-quickly-turn-ipython-notebook.html">prooffreaderplus</a>, it describes how to use a CSS stylesheet to make the jupyter notebook look pretty:</p>
+
+<pre><code>&lt;style type="text/css"&gt;
+.highlight{background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .1em;padding:0em .5em;border-radius: 4px;}
+.k{color: #338822; font-weight: bold;}
+.kn{color: #338822; font-weight: bold;}
+.mi{color: #000000;}
+.o{color: #000000;}
+.ow{color: #BA22FF;  font-weight: bold;}
+.nb{color: #338822;}
+.n{color: #000000;}
+.s{color: #cc2222;}
+.se{color: #cc2222; font-weight: bold;}
+.si{color: #C06688; font-weight: bold;}
+.nn{color: #4D00FF; font-weight: bold;}
+&lt;/style&gt;</code></pre>
+<p>I do not use this right now.</p>
+<h3 id="Notes">Notes<a class="anchor-link" href="#Notes">&#182;</a></h3><p>This first blog post only includes Markdown, and using jupyter notebooks to write in Markdown and then convert to html is really useful.</p>
+<p>Have a look here at <a href="https://github.com/jupyter/nbconvert">github</a> and <a href="http://predictablynoisy.com/blogging-in-wordpress-with-ipython-jupyter-notebooks/">predictablynoisy</a> and <a href="http://prooffreaderplus.blogspot.de/2014/11/how-to-quickly-turn-ipython-notebook.html">prooffreaderplus</a></p>
+
+</div>
+</div>
+</div>
