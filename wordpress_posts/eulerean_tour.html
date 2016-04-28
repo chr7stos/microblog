@@ -1,0 +1,23 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Untitled Document.md</title><style></style></head><body id="preview">
+<p>This is a simple solution that takes a list of nodes and
+outputs a graph as a list of tuples representing edges between
+nodes that have an Eulerean tour.</p>
+<pre><code class="language-python"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">edge</span><span class="hljs-params">(x, y)</span>:</span>
+    <span class="hljs-keyword">return</span> (x, y) <span class="hljs-keyword">if</span> x &lt; y <span class="hljs-keyword">else</span> (y, x)
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">create_tour</span><span class="hljs-params">(nodes)</span>:</span>
+    <span class="hljs-comment"># a very simple solution could just connect</span>
+    <span class="hljs-comment"># the first node with the second node</span>
+    <span class="hljs-comment"># second with third... and the last with the</span>
+    <span class="hljs-comment"># first</span>
+    tour = []
+    l = len(nodes)
+    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(l):
+        t = edge(nodes[i], nodes[(i+<span class="hljs-number">1</span>) % l])
+        tour.append(t)
+    <span class="hljs-keyword">return</span> tour
+</code></pre>
+<p>From Udacity-cs215 Intro to algorithms by Michael Litman.
+<a href="https://www.udacity.com/wiki/cs215/problemset1code">https://www.udacity.com/wiki/cs215/problemset1code</a></p>
+
+</body></html>
